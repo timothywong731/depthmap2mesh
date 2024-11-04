@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "depthmap2stl"
+version = "0.1.0"
+description = ""
+authors = ["Timothy Wong <timothy.wong@hotmail.co.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+trimesh = "^4.5.1"
+matplotlib = "^3.9.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
